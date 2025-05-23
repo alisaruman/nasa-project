@@ -1,11 +1,6 @@
 import { BrowserRouter as Router } from "react-router-dom";
-import {
-  Arwes,
-  SoundsProvider,
-  createSounds,
-  createTheme,
-  ThemeProvider,
-} from "arwes";
+import { Arwes, SoundsProvider, createSounds, createTheme } from "arwes";
+import ThemeProvider from "arwes/lib/ThemeProvider";
 
 import AppLayout from "./pages/AppLayout";
 
